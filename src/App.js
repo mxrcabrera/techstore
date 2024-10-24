@@ -48,9 +48,6 @@ const getExperimentVariation = () => {
   return variations[Math.floor(Math.random() * variations.length)];
 };
 
-// Component to handle loading state
-const Loading = () => <div>Loading...</div>;
-
 // Component demonstrating Feature Flags
 const FeatureFlag = () => {
   if (isFeatureEnabled()) {
